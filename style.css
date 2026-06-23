@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+body{
+    margin: 0;
+}
+
 .container{
-      background-color:#1F2937;
     font-family: Roboto, sans-serif;
 }
 
@@ -63,6 +66,10 @@ button{
     padding: 10px;
 }
 
+.hero button{
+     color: white;
+   border: 2px solid white
+}
 
 
 .hero-right img{
@@ -77,6 +84,8 @@ button{
 
 .info{
     background-color: #f9faf8;
+    padding-top: 10px;
+    padding-bottom: 50px;
 }
 
 .info h2{
@@ -84,12 +93,15 @@ button{
     font-size: 36px;
     color: #1F2937;
     font-weight:900;
+    padding-top: 100px;
+    padding-bottom: 10px;
 }
 
 .info-container{
     display: flex;
     justify-content: center;
     gap: 50px;
+  
 }
 
 .infopic img{
@@ -100,3 +112,59 @@ button{
 .infopic p{
     text-align: center;
 }
+
+.quotes{
+
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+      padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.quotes figcaption{
+
+    text-align: right;
+    padding-right: 750px;
+}
+/* cta & footer sect */
+.cta{
+    
+     border-radius: 30px;
+     background-color: #3882F6;
+     color: white;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-left: 300px;
+     margin-right: 300px;
+     margin-top: 25px;
+     margin-bottom: 25px;
+}
+
+.cta-left{
+  padding-left: 150px;
+}
+
+.cta-right{
+  padding-right: 150px;
+}
+
+.cta button{
+    color: white;
+   border: 2px solid white
+}
+
+
+footer{
+    color: white;
+    text-align: center;
+    background-color: #1F2937;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
